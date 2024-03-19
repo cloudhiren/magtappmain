@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "magtappackage"
-  spec.version      = "0.0.1"
-  spec.summary      = "A short description of magtappackage."
+  spec.version      = "1.0"
+  spec.summary      = "Magtapp is with an Inbuilt Web Browser where you can read contents with Visual Meanings."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,9 +25,12 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+Magtapp is with an Inbuilt Web Browser where you can read contents with Visual Meanings.
+Web Browser
+With the MagTapp Browser, a user can read any webpage with the help of One Tap Visual Meaning. Apart from it, a user can listen to the content.
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/magtappackage"
+  spec.homepage     = "https://github.com/cloudhiren"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,8 +41,8 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  #spec.license      = "MIT (example)"
+   spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -52,10 +55,10 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "Kushkumar" => "Kush.thakkar.ildc@gmail.com" }
-  # Or just: spec.author    = "Kushkumar"
-  # spec.authors            = { "Kushkumar" => "Kush.thakkar.ildc@gmail.com" }
-  # spec.social_media_url   = "https://twitter.com/Kushkumar"
+  spec.author             = { "cloudhiren" => "cloudhiren@gmail.com" }
+  # Or just: spec.author    = "cloudhiren"
+  # spec.authors            = { "cloudhiren" => "cloudhiren@gmail.com" }
+  # spec.social_media_url   = ""
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -80,7 +83,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/magtappackage.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/cloudhiren/magtappmain.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
