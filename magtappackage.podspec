@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "magtappackage"
-  spec.version      = "1.0"
+  spec.version      = "1.0.0"
   spec.summary      = "Magtapp is with an Inbuilt Web Browser where you can read contents with Visual Meanings."
 
   # This description is used to generate tags and improve search results.
