@@ -94,7 +94,7 @@ With the MagTapp Browser, a user can read any webpage with the help of One Tap V
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "magtappackage/Classes", "magtappackage/Classes/**/*.{h,m}"
+  spec.source_files  = "Sources/**/*.swift"
   spec.exclude_files = "magtappackage/Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
